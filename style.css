@@ -1,3 +1,51 @@
+/* Ajouts optimisation dont les classes n'étaient pas claires*/
+
+
+/*Optimisation page contact*/ 
+
+
+/*bannière*/
+ .container-2{
+
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+
+ }
+
+/*formulaire*/
+
+.col-sm-6 form div label{
+    margin-top: 15px;
+}
+
+.col-sm-6 form div input{
+    border-width: 0.1rem;
+    border-color:#484848;
+    border-style: solid;
+}
+
+.col-sm-6 form div textarea{
+    border-color:#484848;
+    border-style: solid;
+}
+
+.col-sm-6{
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.col-sm-6 form div{
+    display: flex;
+    flex-direction: column;  
+}
+
+.col-sm-6 form button{
+    background-color: #333333;
+}
+
+/*fin des modifications d'optimisation*/
+
 body {
     margin: 0;
     padding: 0;
@@ -272,6 +320,10 @@ a:hover {
     margin-top: 80px;
 }
 
+.citation p{
+    font-size: 2rem;
+    font-style: italic;
+}
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -680,9 +732,15 @@ p {
     font-size: 11px;
 }
 
+.emphase strong{
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+    font-size: 1.1rem;
 }
 
 .h1 {
@@ -771,11 +829,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #333333;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -822,7 +880,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
