@@ -1,17 +1,52 @@
-/* Ajouts optimisation dont les classes n'étaient pas claires*/
+/* Ajouts optimisations */
 
+.d-bloc .panel .a-btn:focus,
+.l-bloc .a-btn:focus,
+.l-bloc .navbar a:focus,
+.l-bloc .navbar-brand:focus,
+.l-bloc a:focus .icon-sm,
+.l-bloc a:focus .icon-md,
+.l-bloc a:focus .icon-lg,
+.l-bloc a:focus .icon-xl,
+.l-bloc h1 a:focus,
+.l-bloc h2 a:focus,
+.l-bloc h3 a:focus,
+.l-bloc h4 a:focus,
+.l-bloc h5 a:focus,
+.l-bloc h6 a:focus,
+.l-bloc p a:focus {
 
-/*Optimisation page contact*/ 
+    border: black solid 2px;
+}
 
+.btn-atomic-tangerine:focus {
+    background: rgba(255, 255, 255, .7);
+    color: black;
+}
 
-/*bannière*/
- .container-2{
+.col-sm-6 a:focus{
+    border: black solid 2px;
+}
 
-    display: flex;
-    max-width: 1000px;
-    justify-content: center;
+.ltc-white:focus {
+    border: black solid 2px;
+}
 
- }
+.d-bloc a:focus {
+    border-bottom: #FFFFFF solid 2px;
+}
+
+/* Optimisation couleurs */    
+
+.d-bloc a .icon-md{
+    color: white;
+}
+
+footer a{
+    color: #FFF;
+}
+
+/****Optimisation page contact****/ 
 
 /*formulaire*/
 
@@ -171,7 +206,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -298,7 +332,11 @@ a:hover {
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
     color: rgba(0, 0, 0, 1);
+    text-decoration:underline;
 }
+
+
+
 
 .l-bloc .navbar-toggle .icon-bar {
     color: rgba(0, 0, 0, .6);
@@ -703,7 +741,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -728,9 +766,9 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
+/* p {
     font-size: 11px;
-}
+} */
 
 .emphase strong{
     font-size: 2.2rem;
@@ -750,7 +788,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -820,7 +858,7 @@ h4 {
     text-decoration: underline!important;
 }
 
-.bgc-white {
+.col-md-8 {
     background-color: #FFFFFF;
 }
 
@@ -837,8 +875,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background:#333333;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
@@ -847,11 +885,11 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #cccccc;
 }
 
 .ltc-atomic-tangerine {
