@@ -1,6 +1,8 @@
 /* Ajouts optimisations */
 
-
+.citation span {
+    font-weight: 600;
+}
 
 .d-bloc .panel .a-btn:focus,
 .l-bloc .a-btn:focus,
@@ -48,6 +50,10 @@ footer a{
     color: #FFF;
 }
 
+.col-sm-12 p{
+    color: black;
+}
+
 /****Optimisation page contact****/ 
 
 /*formulaire*/
@@ -75,10 +81,6 @@ footer a{
 .col-sm-6 form div{
     display: flex;
     flex-direction: column;  
-}
-
-.col-sm-6 form button{
-    background-color: #333333;
 }
 
 /*fin des modifications d'optimisation*/
@@ -799,7 +801,7 @@ a {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 25px auto auto auto;
 }
 
 h2 {
@@ -869,7 +871,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #333333;
+    background-color: #f3976c;
 }
 
 .tc-white {
@@ -877,12 +879,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background:#333333;
-    color: #FFFFFF;
+    background:#f3976c;
+    color: black;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background:  #333333;
     color: #FFFFFF!important;
 }
 
